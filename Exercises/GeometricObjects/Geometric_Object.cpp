@@ -177,7 +177,7 @@ double Triangle::get_sideC() const
 
 double Triangle::get_area() const
 {
-    return a * b;
+    return ( a * b ) / 2.0;
 }
 
 double Triangle::get_perimeter() const
